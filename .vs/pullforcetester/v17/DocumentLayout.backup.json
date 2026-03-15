@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\pullforcetester.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\pullforcetester.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\pullforcetester.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|c:\\users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5562E684-ECE5-4636-B665-18A700C0FE40}|pullforcetester\\pullforcetester.csproj|solutionrelative:pullforcetester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "pullforcetester",
+              "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj",
+              "RelativeDocumentMoniker": "pullforcetester\\pullforcetester.csproj",
+              "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj",
+              "RelativeToolTip": "pullforcetester\\pullforcetester.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-15T14:56:21.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\appsettings.json",
+              "RelativeDocumentMoniker": "pullforcetester\\appsettings.json",
+              "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\appsettings.json",
+              "RelativeToolTip": "pullforcetester\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T14:49:00.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\.gitignore",
+              "RelativeDocumentMoniker": "pullforcetester\\.gitignore",
+              "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\.gitignore",
+              "RelativeToolTip": "pullforcetester\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-15T14:48:01.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "pullforcetester.csproj",
               "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj",
               "RelativeDocumentMoniker": "pullforcetester\\pullforcetester.csproj",
               "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj",
               "RelativeToolTip": "pullforcetester\\pullforcetester.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-12T00:48:53.937Z"
+              "WhenOpened": "2026-03-12T00:48:53.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "pullforcetester\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.Designer.cs",
               "RelativeToolTip": "pullforcetester\\Form1.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T10:01:57.2Z"
+              "WhenOpened": "2026-03-11T10:01:57.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.cs",
               "RelativeDocumentMoniker": "pullforcetester\\Form1.cs",
               "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.cs",
               "RelativeToolTip": "pullforcetester\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T09:54:39.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.cs",
               "RelativeDocumentMoniker": "pullforcetester\\Form1.cs",
               "ToolTip": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\Form1.cs [Design]",
               "RelativeToolTip": "pullforcetester\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T09:01:39.638Z"
+              "WhenOpened": "2026-03-11T09:01:39.638Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pullforcetester")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fa4c99e21ca36c41c61feaca46991001a1205e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("pullforcetester")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pullforcetester")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

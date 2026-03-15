@@ -1,0 +1,15 @@
+# Visual Studio cache
+.vs/
+
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.log
+
+# Optional: ignore secrets if you keep variants
+appsettings.Development.json

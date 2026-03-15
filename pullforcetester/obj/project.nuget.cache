@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "yrJUQlAxFMg=",
+  "dgSpecHash": "99oXkfofcj4=",
   "success": true,
   "projectFilePath": "C:\\Users\\daniel.zin\\source\\repos\\pullforcetester\\pullforcetester\\pullforcetester.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.5\\microsoft.extensions.configuration.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.5\\microsoft.extensions.configuration.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.5\\microsoft.extensions.configuration.fileextensions.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.5\\microsoft.extensions.configuration.json.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.5\\microsoft.extensions.fileproviders.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.5\\microsoft.extensions.fileproviders.physical.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.5\\microsoft.extensions.filesystemglobbing.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.5\\microsoft.extensions.primitives.10.0.5.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.4\\runtime.android-arm.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.4\\runtime.android-arm64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.4\\runtime.android-x64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
@@ -18,10 +26,18 @@
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.4\\runtime.linux-x64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.4\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.4\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.4\\runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.4\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
     "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.4\\runtime.osx-x64.runtime.native.system.io.ports.10.0.4.nupkg.sha512",
-    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.io.ports\\10.0.4\\system.io.ports.10.0.4.nupkg.sha512"
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.data.sqlclient\\4.9.1\\system.data.sqlclient.4.9.1.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.io.pipelines\\10.0.5\\system.io.pipelines.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.io.ports\\10.0.4\\system.io.ports.10.0.4.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.text.encodings.web\\10.0.5\\system.text.encodings.web.10.0.5.nupkg.sha512",
+    "C:\\Users\\daniel.zin\\.nuget\\packages\\system.text.json\\10.0.5\\system.text.json.10.0.5.nupkg.sha512"
   ],
   "logs": []
 }

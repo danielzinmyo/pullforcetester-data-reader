@@ -155,15 +155,69 @@ namespace pullforcetester
             }
         }
 
+        //private void SaveToDatabase(string pullValue, string unit)
+        //{
+        //    try
+        //    {
+        //        using (SqlConnection conn = new SqlConnection(connectionString))
+        //        {
+        //            string query = @"INSERT INTO [dbo].[CuttingPullRealtimeData]
+        //                            (cuttingKanban, cuttingKanbanID, apu, fac, cuttingMachine, terminalPart, terminalName, resultPull, resultUnit, createDate, pullMachineIP)
+        //                            VALUES (@kanban, @kanbanID, @apu, @fac, @machine, @part, @name, @pull, @unit, GETDATE(), @ip)";
+
+        //            SqlCommand cmd = new SqlCommand(query, conn);
+
+        //            cmd.Parameters.AddWithValue("@kanban", comboCuttingKanban.SelectedItem?.ToString() ?? "");
+        //            cmd.Parameters.AddWithValue("@kanbanID", "");
+        //            cmd.Parameters.AddWithValue("@apu", "APU1");
+        //            cmd.Parameters.AddWithValue("@fac", "TH");
+
+        //            cmd.Parameters.AddWithValue("@machine", txtCuttingMachine.Text);
+        //            cmd.Parameters.AddWithValue("@part", txtTerminalPart.Text);
+        //            cmd.Parameters.AddWithValue("@name", txtTerminalName.Text);
+
+        //            cmd.Parameters.AddWithValue("@pull", pullValue);
+        //            cmd.Parameters.AddWithValue("@unit", unit);
+        //            cmd.Parameters.AddWithValue("@ip", pullMachineIP);
+
+        //            conn.Open();
+        //            int rows = cmd.ExecuteNonQuery();
+        //            conn.Close();
+
+        //            if (rows > 0)
+        //                Status.Text = $"Data saved: {pullValue} {unit}";
+        //            else
+        //                Status.Text = "Insert failed: no rows affected.";
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Status.Text = "DB Error: " + ex.Message;
+        //    }
+        //}
+
         private void SaveToDatabase(string pullValue, string unit)
         {
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = @"INSERT INTO [dbo].[CuttingPullRealtimeData]
-                                    (cuttingKanban, cuttingKanbanID, apu, fac, cuttingMachine, terminalPart, terminalName, resultPull, resultUnit, createDate, pullMachineIP)
-                                    VALUES (@kanban, @kanbanID, @apu, @fac, @machine, @part, @name, @pull, @unit, GETDATE(), @ip)";
+                    string query = @"
+                MERGE [dbo].[CuttingPullRealtimeData] AS target
+                USING (SELECT @kanban AS cuttingKanban, @part AS terminalPart) AS source
+                ON (target.cuttingKanban = source.cuttingKanban AND target.terminalPart = source.terminalPart)
+                WHEN MATCHED THEN
+                    UPDATE SET resultPull = @pull,
+                               resultUnit = @unit,
+                               cuttingMachine = @machine,
+                               terminalName = @name,
+                               apu = @apu,
+                               fac = @fac,
+                               createDate = GETDATE(),
+                               pullMachineIP = @ip
+                WHEN NOT MATCHED THEN
+                    INSERT (cuttingKanban, cuttingKanbanID, apu, fac, cuttingMachine, terminalPart, terminalName, resultPull, resultUnit, createDate, pullMachineIP)
+                    VALUES (@kanban, @kanbanID, @apu, @fac, @machine, @part, @name, @pull, @unit, GETDATE(), @ip);";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
 
@@ -171,23 +225,18 @@ namespace pullforcetester
                     cmd.Parameters.AddWithValue("@kanbanID", "");
                     cmd.Parameters.AddWithValue("@apu", "APU1");
                     cmd.Parameters.AddWithValue("@fac", "TH");
-
                     cmd.Parameters.AddWithValue("@machine", txtCuttingMachine.Text);
                     cmd.Parameters.AddWithValue("@part", txtTerminalPart.Text);
                     cmd.Parameters.AddWithValue("@name", txtTerminalName.Text);
-
-                    cmd.Parameters.AddWithValue("@pull", pullValue);
+                    cmd.Parameters.AddWithValue("@pull", Convert.ToDecimal(pullValue));
                     cmd.Parameters.AddWithValue("@unit", unit);
                     cmd.Parameters.AddWithValue("@ip", pullMachineIP);
 
                     conn.Open();
-                    int rows = cmd.ExecuteNonQuery();
+                    cmd.ExecuteNonQuery();
                     conn.Close();
 
-                    if (rows > 0)
-                        Status.Text = $"Data saved: {pullValue} {unit}";
-                    else
-                        Status.Text = "Insert failed: no rows affected.";
+                    Status.Text = $"Latest data saved/updated: {pullValue} {unit}";
                 }
             }
             catch (Exception ex)

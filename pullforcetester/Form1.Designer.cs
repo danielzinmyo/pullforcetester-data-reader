@@ -164,6 +164,8 @@ namespace pullforcetester
             this.gridData.Columns.Add("apu", "apu");
             this.gridData.Columns.Add("fac", "fac");
             this.gridData.Columns.Add("cuttingMachine", "cuttingMachine");
+
+
             this.gridData.Columns.Add("terminalPart", "terminalPart");
             this.gridData.Columns.Add("terminalName", "terminalName");
             this.gridData.Columns.Add("resultPull", "resultPull");

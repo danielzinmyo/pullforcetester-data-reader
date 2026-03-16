@@ -65,9 +65,9 @@ namespace pullforcetester
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(120, 34);
             this.btnConnect.Text = "Connect";
-            this.btnConnect.BackColor = Color.FromArgb(59, 130, 246); // Tailwind bg-blue-500
-            this.btnConnect.ForeColor = Color.White;                  // Tailwind text-white
-            this.btnConnect.UseVisualStyleBackColor = false;
+            //this.btnConnect.BackColor = Color.FromArgb(59, 130, 246); 
+            //this.btnConnect.ForeColor = Color.White;                  
+            this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // btnSave
@@ -76,9 +76,9 @@ namespace pullforcetester
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(120, 34);
             this.btnSave.Text = "Save";
-            this.btnSave.BackColor = Color.FromArgb(59, 130, 246);
-            this.btnSave.ForeColor = Color.White;
-            this.btnSave.UseVisualStyleBackColor = false;
+            //this.btnSave.BackColor = Color.FromArgb(59, 130, 246);
+            //this.btnSave.ForeColor = Color.White;
+            this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnRefresh
@@ -87,9 +87,9 @@ namespace pullforcetester
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(120, 34);
             this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.BackColor = Color.FromArgb(59, 130, 246);
-            this.btnRefresh.ForeColor = Color.White;
-            this.btnRefresh.UseVisualStyleBackColor = false;
+            //this.btnRefresh.BackColor = Color.FromArgb(59, 130, 246);
+            //this.btnRefresh.ForeColor = Color.White;
+            this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // lblCuttingMachine
